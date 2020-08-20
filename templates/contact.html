@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-  <title>Teqbunny &mdash; Website Template by Colorlib</title>
+  <title>Tenzero &mdash; Design Company</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -14,7 +14,8 @@
   <link rel="stylesheet" href="{% static 'fonts/ionicons/css/ionicons.min.css' %}">
   <link rel="stylesheet" href="{% static 'fonts/fontawesome/css/font-awesome.min.css' %}">
   <link rel="stylesheet" href="{% static 'fonts/flaticon/font/flaticon.css' %}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
 
   <!-- Theme Style -->
   <link rel="stylesheet" href="{% static 'css/style.css' %}">
@@ -26,7 +27,7 @@
   <header role="banner">
     <nav class="navbar navbar-expand-lg  bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand " href="{% url 'index' %}">Teqbunny</a>
+        <a class="navbar-brand " href="{% url 'index' %}">Tenzero</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
           aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
@@ -95,28 +96,28 @@
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" class="form-control ">
                 {% if form.name.errors %}
-                    <ul>
-                    {% for error in form.name.errors %}
-                        <li><strong>{{ error|escape }}</strong></li>
-                    {% endfor %}
-                    </ul>
+                <ul>
+                  {% for error in form.name.errors %}
+                  <li><strong>{{ error|escape }}</strong></li>
+                  {% endfor %}
+                </ul>
                 {% endif %}
               </div>
               <div class="col-md-6 form-group">
                 <label for="phone">Phone</label>
                 <input type="text" id="phone" name="phone" class="form-control ">
                 {% if form.name.errors %}
-                    <ul>
-                    {% for error in form.phone.errors %}
-                        <li><strong>{{ error|escape }}</strong></li>
-                    {% endfor %}
-                    </ul>
+                <ul>
+                  {% for error in form.phone.errors %}
+                  <li><strong>{{ error|escape }}</strong></li>
+                  {% endfor %}
+                </ul>
                 {% endif %}
               </div>
             </div>
             <div class="row">
               <div class="col-md-12 form-group">
-  
+
               </div>
             </div>
             <div class="row">
@@ -124,11 +125,11 @@
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" class="form-control ">
                 {% if form.email.errors %}
-                    <ul>
-                    {% for error in form.email.errors %}
-                        <li><strong>{{ error|escape }}</strong></li>
-                    {% endfor %}
-                    </ul>
+                <ul>
+                  {% for error in form.email.errors %}
+                  <li><strong>{{ error|escape }}</strong></li>
+                  {% endfor %}
+                </ul>
                 {% endif %}
               </div>
             </div>
@@ -137,11 +138,11 @@
                 <label for="message">Write Message</label>
                 <textarea name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
                 {% if form.message.errors %}
-                    <ul>
-                    {% for error in form.message.errors %}
-                        <li><strong>{{ error|escape }}</strong></li>
-                    {% endfor %}
-                    </ul>
+                <ul>
+                  {% for error in form.message.errors %}
+                  <li><strong>{{ error|escape }}</strong></li>
+                  {% endfor %}
+                </ul>
                 {% endif %}
               </div>
             </div>
@@ -156,18 +157,12 @@
           <div class="row justify-content-right">
             <div class="col-md-8 mx-auto contact-form-contact-info">
               <p class="d-flex">
-                <span class="ion-ios-location icon mr-5"></span>
-                <span>34 Street Name, City Name Here, United States</span>
-              </p>
-  
-              <p class="d-flex">
                 <span class="ion-ios-telephone icon mr-5"></span>
                 <span>+1 242 4942 290</span>
               </p>
-  
               <p class="d-flex">
                 <span class="ion-android-mail icon mr-5"></span>
-                <span>info@yourdomain.com</span>
+                <span>info.tenzero@gmail.com</span>
               </p>
             </div>
           </div>
@@ -180,14 +175,14 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h3 class="mb-4">About Craft</h3>
+          <h3 class="mb-4">About Tenzero</h3>
           <p class="mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias nihil numquam aspernatur
             inventore sint eligendi nostrum!</p>
           <ul class="list-unstyled footer-link d-flex footer-social">
             <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
             <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
             <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
-            <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
+            <li><a href="https://www.instagram.com/tenzero.co/" class="p-2"><span class="fa fa-instagram"></span></a></li>
           </ul>
 
         </div>
@@ -196,45 +191,27 @@
             <h3 class="mb-4">Contact Info</h3>
             <ul class="list-unstyled footer-link">
               <li class="d-block">
-                <span class="d-block">Address:</span>
-                <span class="text-white">34 Street Name, City Name Here, United States</span>
-              </li>
-              <li class="d-block">
-                <span class="d-block">Telephone:</span><span class="text-white">+1 242 4942 290</span>
-              </li>
-              <li class="d-block">
-                <span class="d-block">Email:</span><span class="text-white">info@yourdomain.com</span>
+                <span class="d-block">Email:</span><span class="text-white">info.tenzero@gmail.com</span>
               </li>
             </ul>
           </div>
 
 
         </div>
-        <div class="col-md-3">
-          <h3 class="mb-4">Quick Links</h3>
-          <ul class="list-unstyled footer-link">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Terms of Use</a></li>
-            <li><a href="#">Disclaimers</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-
-        </div>
       </div>
-      <div class="row">
-        <div class="col-12 text-md-center text-left">
-          <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;
-            <script>document.write(new Date().getFullYear());</script> All Rights Reserved | This template is made with
-            <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com"
-              target="_blank">Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          </p>
-        </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-md-center text-left">
+        <p>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          Copyright &copy;
+          <script>document.write(new Date().getFullYear());</script> All Rights Reserved | This template is made with
+          <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com"
+            target="_blank">Colorlib</a>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </p>
       </div>
+    </div>
     </div>
   </footer>
   <!-- END footer -->
